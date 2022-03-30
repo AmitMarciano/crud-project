@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 3rem auto;
+  background-color: rgb(223, 223, 223);
+  font-family: sans-serif;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  color: black(43, 59, 94);
+}
+
+th {
+  color: rgb(43, 59, 94);
+}
+
+td {
+  font-family: courier;
+  color: rgb(53, 5, 5);
+  width: 235px;
+}
+
+input {
+  width: 90%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.focused {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: rgb(29, 114, 163);
+  color: white;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid teal;
+  cursor: pointer;
+  margin: 0.3rem;
+  box-shadow: 3px 3px #888888;
+}
+
+.btn--add {
+  text-decoration: none;
+  background-color: rgb(72, 99, 158);
+  color: white;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid teal;
+  cursor: pointer;
+  margin: 0.3rem;
+  box-shadow: 3px 3px #888888;
+}
+
+.btn--disabled {
+  text-decoration: none;
+  background-color: #cccccc;
+  color: #666666;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #999999;
+  cursor: pointer;
+  margin: 0.3rem;
+  box-shadow: 3px 3px #888888;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgb(40, 152, 218);
+  border-color: rgb(40, 152, 218);
+}
+
+.btn--flat {
+  cursor: pointer;
+  font: inherit;
+  color: teal;
+  border: none;
+  background-color: none;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 3px 3px #888888;
+}
+
+.btn--flat:hover,
+.btn--flat:active {
+  background-color: teal;
+  color: white;
+}
+
+.btn--add:hover,
+.btn--add:active {
+  background-color: rgb(91, 126, 202);
+  border-color: rgb(91, 126, 202);
+}
