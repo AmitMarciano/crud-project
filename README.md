@@ -1,3 +1,3 @@
 # Link for App
 
-amit-crud-table.herokuapp.com/
+https://amit-crud-table.herokuapp.com/
